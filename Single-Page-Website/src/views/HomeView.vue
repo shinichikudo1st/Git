@@ -1,9 +1,13 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import Banner from '../components/banner.vue'
+import HomeContent from '../components/homeContent.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <Banner />
+    <HomeContent />
   </main>
 </template>
+
+<style scoped></style>
